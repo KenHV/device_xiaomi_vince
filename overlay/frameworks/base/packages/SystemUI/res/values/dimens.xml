@@ -24,6 +24,13 @@
 	<!-- more realistic padding -->
     <dimen name="rounded_corner_content_padding">16dp</dimen>
     <!-- Rounded display corners-->
-    <dimen name="rounded_corner_radius">20dp</dimen>
-
+    <dimen name="rounded_corner_radius">24dp</dimen>
+    <!-- the padding on the start and the end of the statusbar --> 
+    <dimen name="status_bar_extra_padding">16dp</dimen>
+    <!-- Radius of the software rounded corners at the top of the display in its natural
+        orientation. If zero, the value of rounded_corner_radius is used. -->
+    <dimen name="rounded_corner_radius_top">87.0px</dimen>
+    <!-- Radius of the software rounded corners at the bottom of the display in its natural
+        orientation. If zero, the value of rounded_corner_radius is used. -->
+    <dimen name="rounded_corner_radius_bottom">87.0px</dimen>
 </resources>
