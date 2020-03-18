@@ -14,9 +14,10 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_vince.mk
+    $(LOCAL_DIR)/aosip.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_vince-user \
-    havoc_vince-userdebug \
-    havoc_vince-eng
+    aosip_vince-user \
+    aosip_vince-userdebug \
+    aosip_vince-eng
+
