@@ -46,6 +46,7 @@ TARGET_TAP_TO_WAKE_NODE := "/sys/devices/platform/soc/78b7000.i2c/i2c-3/3-0020/i
 
 # Security Patch Level
 VENDOR_SECURITY_PATCH := 2019-03-05
+PLATFORM_SECURITY_PATCH := 2019-10-01
 
 # Sepolicy
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
