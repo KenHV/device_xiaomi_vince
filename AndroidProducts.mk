@@ -14,10 +14,5 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosip.mk
-
-COMMON_LUNCH_CHOICES := \
-    aosip_vince-user \
-    aosip_vince-userdebug \
-    aosip_vince-eng
+    $(LOCAL_DIR)/aosip_vince.mk
 

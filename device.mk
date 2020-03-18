@@ -53,6 +53,10 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.usb.rc \
     init.vince.rc
 
+# Security patch level
+PLATFORM_SECURITY_PATCH_OVERRIDE := 2019-10-01
+VENDOR_SECURITY_PATCH := 2019-10-01
+
 # Sensors
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf
