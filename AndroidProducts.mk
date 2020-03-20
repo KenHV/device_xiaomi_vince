@@ -14,9 +14,5 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_vince.mk
+    $(LOCAL_DIR)/aosip_vince.mk
 
-COMMON_LUNCH_CHOICES := \
-    lineage_vince-user \
-    lineage_vince-userdebug \
-    lineage_vince-eng
