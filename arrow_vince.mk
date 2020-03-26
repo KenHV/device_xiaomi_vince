@@ -21,12 +21,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from vince device
 $(call inherit-product, device/xiaomi/vince/device.mk)
 
-# Inherit some common AOSiP stuff.
-$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
+# Inherit some common ArrowOS stuff.
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
-PRODUCT_NAME := aosip_vince
+PRODUCT_NAME := arrow_vince
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 5 Plus
